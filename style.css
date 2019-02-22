@@ -1,48 +1,96 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
 body {
-	line-height: 1;
+    background-color: #777;
 }
-ol, ul {
-	list-style: none;
+
+.wrap {
+    width: 70%;
+    position: relative;
+    margin: auto;
 }
-blockquote, q {
-	quotes: none;
+
+.wrap-1 {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 250px;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+.block {
+    padding: 100px;
+    width: 50px;
+    background-color: #ebebeb;
+    text-align: center;
+    font-family: sans-serif;
+    color: #777;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 8px;
+    position: relative;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+.block-1 {
+    position: relative;
+    width: 98%;
+    padding: 10px;
+}
+
+.block-2 {
+    position: relative;
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 12px;
+}
+
+.block-3 {
+    position: relative;
+    float: left;
+    width: 400px;
+    text-align: top;
+}
+
+.block-4 {
+    position: relative;
+    float: left;
+    color: #ebebeb;
+    background-color: #777;
+    z-index: 1;
+    bottom: 192px;
+    left: 24px;
+    width: 392px;
+    padding: 80px;
+}
+
+.block-5 {
+    position: relative;
+    float: left;
+    bottom: 300px;
+    padding: 10px;
+    left: 90px;
+    width: 392px;
+    z-index: 2;
+
+}
+
+.block-6 {
+    position: relative;
+    float: left;
+    bottom: 300px;
+    padding: 10px;
+    left: 90px;
+    width: 392px;
+    z-index: 3;
+}
+
+.block-7 {
+    position: relative;
+    float: left;
+    width: 250px;
+    left: 204px;
+    margin-left: 8px;
+}
+
+.block-8 {
+    position: relative;
+    float: left;
+    width: 862px;
 }
